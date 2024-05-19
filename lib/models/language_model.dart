@@ -66,3 +66,68 @@ const List<LanguageModel> numbersList = [
       img: 'assets/images/numbers/number_ten.png',
       sound: 'sounds/numbers/number_ten_sound.mp3')
 ];
+
+
+// Members List
+const List<LanguageModel> membersList = [
+  LanguageModel(
+    enName: 'Grandfather',
+    jpName: 'Sofu',
+    img: 'assets/images/family_members/grandfather.png',
+    sound: 'sounds/family_members/grandfather.wav',
+  ),
+  LanguageModel(
+    enName: 'Grandmother',
+    jpName: 'Sobo',
+    img: 'assets/images/family_members/grandmother.png',
+    sound: 'sounds/family_members/grandmother.wav',
+  ),
+  LanguageModel(
+    enName: 'Father',
+    jpName: 'Chichioya',
+    img: 'assets/images/family_members/father.png',
+    sound: 'sounds/family_members/father.wav',
+  ),
+  LanguageModel(
+    enName: 'Mother',
+    jpName: 'Hahaoya',
+    img: 'assets/images/family_members/mother.png',
+    sound: 'sounds/family_members/mother.wav',
+  ),
+  LanguageModel(
+    enName: 'Son',
+    jpName: 'Musuko',
+    img: 'assets/images/family_members/son.png',
+    sound: 'sounds/family_members/son.wav',
+  ),
+  LanguageModel(
+    enName: 'Daughter',
+    jpName: 'Musume',
+    img: 'assets/images/family_members/daughter.png',
+    sound: 'sounds/family_members/daughter.wav',
+  ),
+  LanguageModel(
+    enName: 'Older brother',
+    jpName: 'Ani',
+    img: 'assets/images/family_members/olderbrother.png',
+    sound: 'sounds/family_members/olderbrother.wav',
+  ),
+  LanguageModel(
+    enName: 'Younger brother',
+    jpName: 'Otōto',
+    img: 'assets/images/family_members/youngerbrother.png',
+    sound: 'sounds/family_members/youngerbrother.wav',
+  ),
+  LanguageModel(
+    enName: 'Older sister',
+    jpName: 'Ane',
+    img: 'assets/images/family_members/oldersister.png',
+    sound: 'sounds/family_members/oldersister.wav',
+  ),
+  LanguageModel(
+    enName: 'Younger sister',
+    jpName: 'Imōto',
+    img: 'assets/images/family_members/youngersister.png',
+    sound: 'sounds/family_members/youngersister.wav',
+  )
+];

@@ -12,3 +12,10 @@ const kNumBar = Color(0xff994D1C);
 const kNumBody = Color(0xffE48F45);
 const kNumImage = Color(0xffF5CCA0);
 
+const kMemBar = Color(0xff40A578);
+const kMemBody = Color(0xff9DDE8B);
+const kMemImage = Color(0xffE6FF94);
+
+const titleTextStyle = TextStyle(
+  fontWeight: FontWeight.w500,
+);

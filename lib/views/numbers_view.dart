@@ -12,9 +12,7 @@ class NumbersView extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           'Numbers',
-          style: TextStyle(
-            fontWeight: FontWeight.w500,
-          ),
+          style: titleTextStyle,
         ),
         backgroundColor: kNumBar,
       ),
