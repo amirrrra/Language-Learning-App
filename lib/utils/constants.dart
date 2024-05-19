@@ -20,6 +20,9 @@ const kColBar = Color(0xff643843);
 const kColBody = Color(0xff85586F);
 const kColImage = Color(0xffAC7D88);
 
+const kPhBody = Color(0xff135D66);
+const kPhBar = Color(0xff003C43);
+
 const titleTextStyle = TextStyle(
   fontWeight: FontWeight.w500,
 );

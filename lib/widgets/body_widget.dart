@@ -5,13 +5,13 @@ import 'package:language_learning_app/models/language_model.dart';
 class BodyWidget extends StatelessWidget {
   final LanguageModel languageModel;
   final Color color;
-  final Color imageColor;
+  final Color? imageColor;
 
   const BodyWidget({
     super.key,
     required this.languageModel,
     required this.color,
-    required this.imageColor,
+    this.imageColor,
   });
 
   @override
@@ -26,31 +26,33 @@ class BodyWidget extends StatelessWidget {
       child: Row(
         children: [
           // Image
-          Container(
-            color: imageColor,
-            child: Image.asset(languageModel.img),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(left: 20),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                // Japanese Word
-                Text(
-                  languageModel.jpName,
-                  style: textStyle,
-                ),
-                // English Word
-                Text(
-                  languageModel.enName,
-                  style: textStyle,
-                ),
-              ],
+          if (imageColor != null)
+            Container(
+              color: imageColor,
+              child: Image.asset(languageModel.img),
+            ),
+
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.only(left: 20,top: 20),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // Japanese Word
+                  Text(
+                    languageModel.jpName,
+                    style: textStyle,
+                  ),
+                  // English Word
+                  Text(
+                    languageModel.enName,
+                    style: textStyle,
+                  ),
+                ],
+              ),
             ),
           ),
-          const Spacer(
-            flex: 1,
-          ),
+          
           // Audio Icon
           Padding(
             padding: const EdgeInsets.only(right: 20),

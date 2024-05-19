@@ -182,3 +182,61 @@ const List<LanguageModel> colorsList = [
     sound: 'sounds/colors/yellow.wav',
   ),
 ];
+
+// Phrases List
+const List<LanguageModel> phrasesList = [
+  LanguageModel(
+    enName: 'are you coming',
+    jpName: 'Kimasu ka',
+    sound: 'sounds/phrases/are_you_coming.wav',
+    img: '',
+  ),
+  LanguageModel(
+    enName: "don't forget to subscribe",
+    jpName: 'Kōdoku suru koto o wasurenaide kudasai',
+    sound: 'sounds/phrases/dont_forget_to_subscribe.wav',
+    img: '',
+  ),
+  LanguageModel(
+    enName: 'how are you feeling',
+    jpName: 'Go kibun wa ikagadesu ka.',
+    sound: 'sounds/phrases/how_are_you_feeling.wav',
+    img: '',
+  ),
+  LanguageModel(
+    enName: 'i love anime',
+    jpName: 'Watashi wa anime ga daisukidesu',
+    sound: 'sounds/phrases/i_love_anime.wav',
+    img: '',
+  ),
+  LanguageModel(
+    enName: 'i love programming',
+    jpName: 'Watashi wa puroguramingu ga daisukidesu',
+    sound: 'sounds/phrases/i_love_programming.wav',
+    img: '',
+  ),
+  LanguageModel(
+    enName: 'programming_is_easy',
+    jpName: 'Puroguramingu wa kantandesu',
+    sound: 'sounds/phrases/programming_is_easy.wav',
+    img: '',
+  ),
+  LanguageModel(
+    enName: 'what is your name',
+    jpName: 'Anata no namae wa nandesuka',
+    sound: 'sounds/phrases/what_is_your_name.wav',
+    img: '',
+  ),
+  LanguageModel(
+    enName: 'where are you going',
+    jpName: 'Doko ni iku no',
+    sound: 'sounds/phrases/where_are_you_going.wav',
+    img: '',
+  ),
+  LanguageModel(
+    enName: "yes i'm coming",
+    jpName: 'Hai, ikimasu',
+    sound: 'sounds/phrases/yes_im_coming.wav',
+    img: '',
+  ),
+];
