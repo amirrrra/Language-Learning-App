@@ -11,7 +11,7 @@ class NumbersView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Numbers',
+          kNumbers,
           style: titleTextStyle,
         ),
         backgroundColor: kNumBar,

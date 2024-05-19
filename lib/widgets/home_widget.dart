@@ -36,8 +36,8 @@ class HomeWidget extends StatelessWidget {
       child: Text(
         text,
         style: const TextStyle(
-          fontSize: 32,
-          color: kBlack,
+          fontSize: 28,
+          color: kWhite,
         ),
       ),
     );

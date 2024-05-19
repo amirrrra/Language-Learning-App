@@ -12,7 +12,7 @@ class MembersView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Members',
+          kMembers,
           style: titleTextStyle,
         ),
         backgroundColor: kMemBar,

@@ -23,32 +23,32 @@ class HomeView extends StatelessWidget {
               flex: 2,
             ),
             HomeWidget(
-              color: kOrange,
-              text: 'Numbers',
+              color: kNumBar,
+              text: kNumbers,
               widget: NumbersView(),
             ),
             Spacer(
               flex: 1,
             ),
             HomeWidget(
-              color: kYellow,
-              text: 'Colors',
+              color: kColBar,
+              text: kColors,
               widget: ColorsView(),
             ),
             Spacer(
               flex: 1,
             ),
             HomeWidget(
-              color: kGreen,
-              text: 'Phrases',
+              color: kPhBar,
+              text: kPhrases,
               widget: PhrasesView(),
             ),
             Spacer(
               flex: 1,
             ),
             HomeWidget(
-              color: kTeel,
-              text: 'Family Members',
+              color: kMemBar,
+              text: kMembers,
               widget: MembersView(),
             ),
             Spacer(

@@ -11,7 +11,7 @@ class PhrasesView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Members',
+          kPhrases,
           style: titleTextStyle,
         ),
         backgroundColor: kPhBar,

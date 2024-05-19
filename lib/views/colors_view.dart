@@ -11,7 +11,7 @@ class ColorsView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Members',
+          kColors,
           style: titleTextStyle,
         ),
         backgroundColor: kColBar,
