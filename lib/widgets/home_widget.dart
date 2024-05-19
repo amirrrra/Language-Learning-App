@@ -11,7 +11,7 @@ class HomeWidget extends StatelessWidget {
 
   final String text;
   final Color color;
-  final Widget widget; 
+  final Widget widget;
 
   @override
   Widget build(BuildContext context) {
@@ -19,9 +19,11 @@ class HomeWidget extends StatelessWidget {
       onPressed: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) {
-            return widget;
-          }),
+          MaterialPageRoute(
+            builder: (context) {
+              return widget;
+            },
+          ),
         );
       },
       style: ElevatedButton.styleFrom(
@@ -35,10 +37,9 @@ class HomeWidget extends StatelessWidget {
         text,
         style: const TextStyle(
           fontSize: 32,
-          color: kBlack
+          color: kBlack,
         ),
       ),
     );
   }
 }
-

@@ -8,3 +8,7 @@ const kGreen = Color(0xff388E3C);
 const kTeel = Color(0xff004D40);
 const kBlack = Color(0xff000000);
 
+const kNumBar = Color(0xff994D1C);
+const kNumBody = Color(0xffE48F45);
+const kNumImage = Color(0xffF5CCA0);
+
