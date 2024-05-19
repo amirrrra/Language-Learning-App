@@ -16,6 +16,10 @@ const kMemBar = Color(0xff40A578);
 const kMemBody = Color(0xff9DDE8B);
 const kMemImage = Color(0xffE6FF94);
 
+const kColBar = Color(0xff643843);
+const kColBody = Color(0xff85586F);
+const kColImage = Color(0xffAC7D88);
+
 const titleTextStyle = TextStyle(
   fontWeight: FontWeight.w500,
 );

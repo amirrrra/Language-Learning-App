@@ -67,7 +67,6 @@ const List<LanguageModel> numbersList = [
       sound: 'sounds/numbers/number_ten_sound.mp3')
 ];
 
-
 // Members List
 const List<LanguageModel> membersList = [
   LanguageModel(
@@ -130,4 +129,56 @@ const List<LanguageModel> membersList = [
     img: 'assets/images/family_members/youngersister.png',
     sound: 'sounds/family_members/youngersister.wav',
   )
+];
+
+// Colors List
+const List<LanguageModel> colorsList = [
+  LanguageModel(
+    enName: 'Black',
+    jpName: 'Kuro',
+    img: 'assets/images/colors/black.png',
+    sound: 'sounds/colors/black.wav',
+  ),
+  LanguageModel(
+    enName: 'Brown',
+    jpName: 'Chairo',
+    img: 'assets/images/colors/brown.png',
+    sound: 'sounds/colors/brown.wav',
+  ),
+  LanguageModel(
+    enName: 'Dusty yellow',
+    jpName: 'Dasutiierō',
+    img: 'assets/images/colors/dusty_yellow.png',
+    sound: 'sounds/colors/dusty yellow.wav',
+  ),
+  LanguageModel(
+    enName: 'Grey',
+    jpName: 'Gurē',
+    img: 'assets/images/colors/gray.png',
+    sound: 'sounds/colors/gray.wav',
+  ),
+  LanguageModel(
+    enName: 'Green',
+    jpName: 'Midori',
+    img: 'assets/images/colors/green.png',
+    sound: 'sounds/colors/green.wav',
+  ),
+  LanguageModel(
+    enName: 'Red',
+    jpName: 'Aka',
+    img: 'assets/images/colors/red.png',
+    sound: 'sounds/colors/red.wav',
+  ),
+  LanguageModel(
+    enName: 'White',
+    jpName: 'Shiro',
+    img: 'assets/images/colors/white.png',
+    sound: 'sounds/colors/white.wav',
+  ),
+  LanguageModel(
+    enName: 'Yellow',
+    jpName: 'Kiiro',
+    img: 'assets/images/colors/yellow.png',
+    sound: 'sounds/colors/yellow.wav',
+  ),
 ];
